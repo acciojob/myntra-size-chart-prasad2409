@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+table {
+	border :1px solid black;
+	border-collapse: collapse;
+}
+th{
+	text-align: left;
+	border-right : 1px solid black;
+}
+tr { 
+  border: solid;
+  border-width: 1px ;
+}
+td{
+	text-align: right;
+	border-right : 1px solid black;
+}
+#r1{
+	color : white;
+	background-color: hsl(0, 40%, 50%)
+}
+#r2{
+	color : white;
+	background-color: hsl(0, 100%, 70%)
+}
